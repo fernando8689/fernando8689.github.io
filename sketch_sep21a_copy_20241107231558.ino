@@ -8,8 +8,8 @@
 #define OLED_RESET -1      //-- configuracion reset
 Adafruit_SSD1306 oled(ANCHO, ALTO, &Wire, OLED_RESET);  // crea objeto
 
-const char *ssid = "Flia Belmonte";
-const char *password = "71199632j";
+const char *ssid = "192.168.1.8";
+const char *password = " ";
 WebServer server(80);
 const int led = 13;
 
